@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  background-color: hsl(217, 28%, 15%);
+}
+
+/* .container {
+  border: 4px solid yellow;
+} */
+
+.section1 {
+  /* border: 3px solid green; */
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url("./images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  /* border: 3px solid red; */
+  height: 10vh;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+}
+
+.nav > div {
+  width: 50%;
+}
+
+/* Nav items */
+
+.nav div:nth-child(2) {
+  display: flex;
+  justify-content: right;
+  gap: 8%;
+  /* border: 3px solid orange; */
+}
+
+.nav > div:nth-child(1) {
+  /* border: 3px solid green; */
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.nav > div:nth-child(2) > div {
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hero section styling */
+
+.heroSection {
+  /* border: 3px solid springgreen; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 0 5%;
+  box-sizing: border-box;
+  /* overflow: auto; */
+}
+
+.heroSection div:nth-child(1) {
+  /* border: 3px solid blue; */
+  display: flex;
+  align-items: center;
+  display: inherit;
+  width: 45%;
+  /* height: 50%; */
+}
+
+.heroSection div:nth-child(2) {
+  /* border: 3px solid purple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+/* Hero section texts */
+
+.text1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.text2 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.heroSection > div:nth-child(2) > button {
+  background: hsl(176, 68%, 64%);
+  border-radius: 25px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0.75rem 2rem;
+  border: transparent;
+  outline: none;
+  width: 35%;
+  /* margin-top: 5px; */
+  /* margin-bottom: 15px; */
+}
+
+.heroSection div:nth-child(1) > img {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  /* border: 10px solid red; */
+  box-sizing: border-box;
+}
+
+/* Features section text styling */
+
+.item1 > p:nth-child(2),
+.item2 > p:nth-child(2),
+.item3 > p:nth-child(2),
+.item4 > p:nth-child(2) {
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.item1 p:nth-child(3),
+.item2 > p:nth-child(3),
+.item3 > p:nth-child(3),
+.item4 > p:nth-child(3) {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Section 2 styling */
+
+.section2 {
+  padding: 6rem 20%;
+  background: hsl(218, 28%, 13%);
+}
+
+.section2 > div {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.section2 > div:nth-child(2) {
+  margin-top: 4rem;
+}
+
+.section2 > div > div {
+  width: 50%;
+  text-align: center;
+}
+
+/* Section3 styling */
+
+.section3 {
+  /* border: 3px solid rgb(80, 6, 43); */
+  height: 125vh;
+  box-sizing: border-box;
+  background: hsl(218, 28%, 13%);
+}
+
+/* Info section styling */
+
+.infoSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+}
+
+.infoSection > div {
+  /* border: 3px solid orangered; */
+  width: 47.5%;
+}
+
+.infoSection div:nth-child(1) > img {
+  width: 90%;
+}
+
+/* Info section text styling */
+
+.infoTexts p:nth-child(1) {
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  line-height: 2.6rem;
+}
+
+.infoTexts p:nth-child(2) {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+
+.infoTexts p:nth-child(3) {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+
+.infoTexts a:nth-child(4) {
+  color: hsl(176, 68%, 64%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+
+/* Testimonials section */
+
+.testimonialSection {
+  /* border: 3px solid rgb(75, 74, 74); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7%;
+}
+
+.testimonialSection > div {
+  width: 30%;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+}
+
+.testimonialSection > div > div:nth-child(2) {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.userInfo1 > div > p:nth-child(1),
+.userInfo2 > div > p:nth-child(1),
+.userInfo3 > div > p:nth-child(1) {
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 12px;
+  text-align: left;
+}
+
+.userInfo1 > div > p:nth-child(2),
+.userInfo2 > div > p:nth-child(2),
+.userInfo3 > div > p:nth-child(2) {
+  margin: 0.5em 0;
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.userInfo3 div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Testimonial text styling */
+
+.summary1 > p {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  /* text-align: left; */
+}
+
+.summary2 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  /* text-align: left; */
+}
+
+.summary3 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* Testimonial images */
+
+.userInfo1 > img {
+  width: 2rem;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.userInfo2 > img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.userInfo3 > img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+/* Registration field */
+
+.registrationField {
+  /* border: 3px solid orange; */
+  background: hsl(217, 28%, 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+  padding: 40px;
+  border-radius: 15px;
+  position: relative;
+  /* z-index: 2; */
+}
+
+.registrationField p:nth-child(1) {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.registrationField p:nth-child(2) {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  width: 80%;
+  margin: 40px;
+}
+
+.registrationField > div {
+  /* border: 3px solid olive; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  gap: 25px;
+  height: 3rem;
+}
+
+#txt {
+  width: 90%;
+  color: #d9dbe1;
+  background: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  border: transparent;
+  outline: none;
+  height: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  /* margin: 0; */
+}
+
+::placeholder {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 24px; */
+  color: #d9dbe1;
+}
+
+.registrationField > div > button {
+  background: hsl(176, 68%, 64%);
+  border-radius: 25px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  border: transparent;
+  outline: none;
+  width: 35%;
+  height: 100%;
+}
+
+/* footer styling */
+
+.footer {
+  /* border: 3px solid yellow; */
+  background: hsl(216, 53%, 9%);
+  padding: 80px;
+}
+
+.footerLogo {
+  /* border: 3px solid cyan; */
+}
+
+.footerContent {
+  /* border: 3px solid red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footerText1 {
+  /* border: 3px solid palevioletred; */
+  width: 34%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.footerText2 {
+  /* border: 3px solid green; */
+  width: 28%;
+}
+
+.footerText3,
+.footerText4 {
+  /* border: 3px solid purple; */
+  width: 12%;
+}
+
+.socialIcons {
+  /* border: 3px solid green; */
+  width: 14%;
+}
+
+.footerText2 > div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footerText2 > div > img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: hsl(0, 0%, 100%);
+}
+
+.socialIcons > img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  padding: 0.25rem 0.25rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 100%);
+}
+
+/* footer text styling */
+
+.footerLogo > p {
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#fyloInfo {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.footerText2 > div > p {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 0 1em 0;
+  opacity: 0.8;
+  /* border: 3px solid brown; */
+}
+
+.footerText3 > p,
+.footerText4 > p {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 0 1em 0;
+  opacity: 0.8;
+  /* border: 3px solid red; */
+}
+
+.socialIcons {
+  color: hsl(0, 0%, 100%);
+}
+
+
+/*  */
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(176, 68%, 64%);
+  /* background: hsl(216, 53%, 9%); */
+}
+
+.projectInfo {
+ background: hsl(216, 53%, 9%);
+}
