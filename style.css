@@ -118,7 +118,6 @@ body {
   padding: 0.75rem 2rem;
   border: transparent;
   outline: none;
-  width: 35%;
   /* margin-top: 5px; */
   /* margin-bottom: 15px; */
 }
@@ -413,17 +412,16 @@ body {
   font-weight: 700;
   font-size: 14px;
   color: hsl(0, 0%, 100%);
-  padding: 10px;
   border: transparent;
   outline: none;
   width: 35%;
+  padding: 1rem;
   height: 100%;
 }
 
 /* footer styling */
 
 .footer {
-  /* border: 3px solid yellow; */
   background: hsl(216, 53%, 9%);
   padding: 80px;
 }
@@ -530,7 +528,6 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-
 /*  */
 .attribution {
   font-size: 15px;
@@ -544,5 +541,44 @@ body {
 }
 
 .projectInfo {
- background: hsl(216, 53%, 9%);
+  background: hsl(216, 53%, 9%);
+}
+
+@media (max-width: 767px) {
+  .section2 {
+    padding: 6rem 10%;
+  }
+  .section2 > div {
+    flex-direction: column;
+  }
+
+  .section2 > div > div {
+    width: 100%;
+  }
+
+  .section3 {
+    /* border: 3px solid rgb(80, 6, 43); */
+    height: 175vh;
+    box-sizing: border-box;
+    background: hsl(218, 28%, 13%);
+  }
+
+  .infoSection {
+    flex-direction: column;
+    padding: 0 10%;
+  }
+
+  .infoSection > div {
+    width: 100%;
+  }
+
+  .testimonialSection {
+    flex-direction: column;
+    padding: 10%;
+    gap: 20px;
+  }
+
+  .testimonialSection > div {
+    width: 100%;
+  }
 }
